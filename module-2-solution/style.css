@@ -29,11 +29,38 @@ h3{
   margin: auto;
   margin-bottom: 5px;
 }
-h3:hover{
+
+#facebook{
+
+    background-color: blue;
+    color: white;
+
+}
+#instagram{
+
+    background-color: #e75480;
+    color: white;
+}
+#twitter{
+  color: white;
+  background-color: #00acee;
+}
+#twitter:hover{
 
   background-color: black;
   color: white;
 }
+#facebook:hover{
+
+  background-color: black;
+  color: white;
+}
+#instagram:hover{
+
+  background-color: black;
+  color: white;
+}
+
 *{
 	overflow: auto;
 }
