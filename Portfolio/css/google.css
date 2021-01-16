@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:580px) {
+   .row div{
+       max-height: 200px;
+    
+   }
+}
+
+body{
+    background-color: #ddd1e3;
+   /*  background: linear-gradient(#2193b0,#6dd5ed); */
+   background-image: url(../images/cool-background\(5\).png);
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+.top-bar{
+    margin:5px;
+    padding:5px;   
+}
+.top-bar a{
+    text-decoration-style: none;
+    color: black;
+}
+ h1{
+        text-align: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.295);
+        letter-spacing: 2px;
+        box-shadow: inset 0px 10px 10px rgba(224, 63, 13, 0.555);    
+}
+
+.row{
+
+    justify-content: space-around;
+    margin-bottom: 15px;
+   
+}
+
+
+.row div{
+ 
+    border: 3px solid black;
+    outline: 5px solid white;
+    margin: 10px 40px;
+    
+}
+ h5{
+   text-align: center;  
+   background-color: black;
+   opacity: .6;
+}
+.col-sm-12{
+    background-size: contain;
+    background-position: center;
+}
+
+img{
+    height: 200px;
+    width: 250px;
+
+}
+/* span{
+    position: absolute;
+    margin-left: -170px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.651);
+    padding: 5px;
+       
+} */
+
+@media screen and (max-width:480px){
+    img{
+        height: 150px;
+        width: 150px;
+        display: block;
+        
+
+    }
+}
+.row p{
+    text-align: center;
+    color:black;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.row a{
+    -moz-text-decoration-style: none;
+    text-decoration-style: none;
+}
+/* 
+.funda{
+    background-image: url(../images/fundamentals.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    color:white;
+    
+}
+.os{
+    background-image: url(../images/os.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: white;
+}
+.cn{
+    background-image: url(../images/cn.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: white;
+}
+.admin{
+    background-image: url(../images/admin.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+.it-security{
+    background-image: url(../images/security.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+.final{
+    background-image: url(../images/final.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+.cloud{
+    background-image: url(../images/cloud-image.png) ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: white;
+} */
+
+.row a:hover{
+    margin: 10px;
+    transform: scale(1.1); 
+      
+}
+
+/* IBM */
+.intro{
+    background-image: url(../images/ai.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: white;
+}
+.watson{
+    background-image: url(../images/watson.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: white;
+}
+.python{
+    background-image: url(../images/python.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+.project{
+    background-image: url(../images/chatbot2.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+/* Others */
+
+.tcs{
+    background-image: url(../images/tcs-logo.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: white;
+    
+}.michi{
+    background-image: url(../images/michigan.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: white;
+
+    
+}
+
+
